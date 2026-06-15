@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "pawcare",
+  "scripts": {
+    "build": "npm run build --prefix veterinaria",
+    "dev": "npm run dev --prefix veterinaria",
+    "start": "npm run start --prefix veterinaria",
+    "install:veterinaria": "npm install --prefix veterinaria"
+  }
+}
